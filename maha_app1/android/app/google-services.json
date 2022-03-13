@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "559619931782",
+    "project_id": "app-development-tbl",
+    "storage_bucket": "app-development-tbl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559619931782:android:2b2a793ab0c2810c681b07",
+        "android_client_info": {
+          "package_name": "com.example.maha_app1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559619931782-o2h00k8t2trcshgpomraquffvi304aq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo4y8Aq0oO4JzVs7LoWmrU8SKEnat0TlQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559619931782-o2h00k8t2trcshgpomraquffvi304aq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
