@@ -41,6 +41,65 @@ class _HomePageState extends State<HomePage> {
                     backgroundColor: Colors.green[200],
                   ),
                 ),
+                 SizedBox(
+                    height: 30,
+                  ),
+                  Container(
+                    height: 460,
+                    width: 400,
+                    decoration: BoxDecoration(
+                        color: Color(0xFFE8F5E9),
+                        borderRadius: BorderRadius.circular(50)),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      // ignore: prefer_const_literals_to_create_immutables
+                      children: [
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          'Hello',
+                          style: TextStyle(
+                              fontSize: 25, fontWeight: FontWeight.bold),
+                        ),
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          'Please Login to Your Account',
+                          style:
+                              TextStyle(fontSize: 15, color: Colors.green[400]),
+                        ),
+
+                        // ignore: sized_box_for_whitespace
+                        Container(
+                          width: 300,
+                          //child: emailField,
+                        ),
+                        // ignore: sized_box_for_whitespace
+                        Container(
+                          width: 300,
+                          //child: passwordField,
+                        ),
+
+                        SizedBox(
+                          height: 20,
+                        ),
+                        Container(
+                          height: 40,
+                          width: 250,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(40),
+                            color: Colors.green[300],
+                          ),
+                          //child: loginButton,
+                        ),
+
+                        SizedBox(
+                          height: 20,
+                        ),
+                      
+                      ],
             
               ],
             ),

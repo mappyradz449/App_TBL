@@ -12,6 +12,7 @@ import 'package:maha_app1/Widgets/changescreen.dart';
 // ignore: unused_import
 import '../Widgets/mybutton.dart';
 import '../Widgets/changescreen.dart';
+import 'home_page.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -139,8 +140,8 @@ class _LoginPageState extends State<LoginPage> {
           //sendData();  //works
           validation();
           signIn(emailController.text, passwordController.text);
-          // Navigator.of(context).pushReplacement(
-          //     MaterialPageRoute(builder: (context) => HomePage()));
+          Navigator.of(context).pushReplacement(
+              MaterialPageRoute(builder: (context) => HomePage()));
         },
         child: Text(
           "Login",
